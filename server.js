@@ -3,7 +3,6 @@ const Koa = require('koa');
 const Router = require('koa-router');
 const { streamEvents } = require('http-event-stream');
 const uuid = require('uuid');
-
 const app = new Koa();
 
 app.use(async (ctx, next) => {
